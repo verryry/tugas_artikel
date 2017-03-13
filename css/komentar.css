@@ -1,0 +1,21 @@
+.all-comment{
+	padding: 12px;
+}
+.commenters{
+	background-color: #162844;
+	color: white;
+	border: 0.5px solid #337ab7;
+}
+.commenters p {
+	padding-left: 7px;
+}
+.comments{
+	background-color: white;
+	color: black;
+	padding-top: 3px;
+	padding-left: 8px;
+	border: 0.5px solid #337ab7;
+}
+textarea{
+	
+}

@@ -1,0 +1,48 @@
+.color {
+	color: #1b2838;
+}
+a:hover {
+	color: blue;
+}
+#logout {
+	padding-right: 20px;
+}
+
+.nav {
+	height: 50px;
+	width: 99%;
+}
+.nav-tabs {
+	padding-top: 3px;
+}
+ul.nav li.icon{
+	display: ;
+}
+/*responsive*/
+@media screen and (max-width: 600px){
+	ul.nav li:not(:first-child){
+		display: none;
+	}
+	ul.nav li.icon{
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+	ul.nav.responsive{
+		position: relative;
+	}
+	ul.nav.responsive li.icon{
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+	ul.nav.responsive li{
+		float: none;
+		display: inline;
+	}
+	ul.nav.responsive li a{
+		display: block;
+		text-align: left;
+	}
+}
+
